@@ -1,0 +1,22 @@
+{
+  "name": "tailwindcss-test",
+  "version": "1.0.0",
+  "description": "Playground for Tailwind CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcker/tailwindcss-test.git"
+  },
+  "keywords": [
+    "keyword"
+  ],
+  "author": "marcker <marcker@youremail.com> (http://marcker.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcker/tailwindcss-test/issues"
+  },
+  "homepage": "https://github.com/marcker/tailwindcss-test#readme"
+}
