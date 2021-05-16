@@ -1,0 +1,56 @@
+.header {
+  @apply
+    bg-blue-400
+    p-lg;
+
+  .title {
+    @apply
+      font-bold
+
+      mb-md
+
+      text-center
+      text-white
+
+      text-lg
+      md:text-xl;
+  }
+
+  .description {
+    @apply
+      text-center
+
+      text-sm
+      md:text-base;
+  }
+}
+
+.content {
+  @apply
+    m-md
+    md:container
+    md:mx-auto;
+
+  .textBase {
+    @apply
+      text-blue-900
+
+      mb-md
+      last:mb-0;
+  }
+}
+
+.footer {
+  @apply
+    bg-blue-400
+    p-lg;
+
+  .about {
+    @apply
+      bg-blue-400
+
+      text-center
+
+      p-lg;
+  }
+}

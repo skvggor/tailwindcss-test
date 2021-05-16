@@ -2,21 +2,37 @@
   "name": "tailwindcss-test",
   "version": "1.0.0",
   "description": "Playground for Tailwind CSS.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "test"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marcker/tailwindcss-test.git"
   },
   "keywords": [
-    "keyword"
+    "next",
+    "tailwindcss"
   ],
   "author": "marcker <marcker@youremail.com> (http://marcker.github.io)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marcker/tailwindcss-test/issues"
   },
-  "homepage": "https://github.com/marcker/tailwindcss-test#readme"
+  "homepage": "https://github.com/marcker/tailwindcss-test#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "next": "10.2.0",
+    "postcss": "^8.2.15",
+    "react-dom": "17.0.2",
+    "react": "17.0.2",
+    "tailwindcss": "^2.1.2"
+  },
+  "devDependencies": {
+    "postcss-custom-properties": "^11.0.0",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.5"
+  }
 }
